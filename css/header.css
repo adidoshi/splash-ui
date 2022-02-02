@@ -1,0 +1,34 @@
+@import url("/css/default.css");
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.header-brand-title {
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right .header-link {
+  font-size: 1rem;
+}
+
+.header-icon {
+  margin-left: 1.2rem;
+  font-size: 1.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-right .header-link {
+    display: none;
+  }
+}
