@@ -20,15 +20,15 @@
 }
 
 .online {
-  background-color: green;
+  background-color: var(--success-color);
 }
 
 .offline {
-  background-color: red;
+  background-color: var(--error-color);
 }
 
 .dnd {
-  background-color: yellow;
+  background-color: var(--warning-color);
 }
 
 .badge i {

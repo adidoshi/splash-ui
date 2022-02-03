@@ -9,6 +9,9 @@
   --text-dark-color: #333333;
   --light-gray: #a8a29e;
   --dark-gray: #78716c;
+  --success-color: #15803d;
+  --warning-color: #facc15;
+  --error-color: #dc2626;
 }
 
 * {
