@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badge | Splash ui</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/components/badge/Badge.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <a href="/index.html">
+            <span class="header-brand-title">splash ui</span>
+            <small>v1.0</small>
+          </a>
+        </div>
+        <div class="header-right">
+          <a href="/docs.html"><span class="header-link">Docs</span></a>
+          <a href="https://github.com/adidoshi/splash-ui" target="_blank">
+            <span class="header-icon"
+              ><i class="devicon-github-original colored"></i
+            ></span>
+          </a>
+        </div>
+      </header>
+    </div>
+
+    <div class="docs-container">
+      <nav>
+        <div class="sidebar-wrapper">
+          <h4 class="sidebar-title-one">Getting started</h4>
+          <ul class="sidebar-list">
+            <a href="/docs.html"
+              ><li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-download"></i
+                ></span>
+                <span class="sidebar-item-text">Installation </span>
+              </li></a
+            >
+          </ul>
+          <h4 class="sidebar-title-two">Components</h4>
+          <ul class="sidebar-list">
+            <a href="/components/avatar/Avatar.html"
+              ><li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-user-circle"></i
+                ></span>
+                <span class="sidebar-item-text">Avatar </span>
+              </li></a
+            >
+            <li class="sidebar-list-item">
+              <span class="sidebar-icon">
+                <i class="fas fa-exclamation-circle"></i
+              ></span>
+              <span class="sidebar-item-text">Alert </span>
+            </li>
+            <a href="/components/badge/Badge.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-bookmark"></i
+                ></span>
+                <span class="sidebar-item-text">Badge</span>
+              </li>
+            </a>
+            <li class="sidebar-list-item">
+              <span class="sidebar-icon"><i class="fas fa-copy"></i></span>
+              <span class="sidebar-item-text">Button</span>
+            </li>
+            <li class="sidebar-list-item">
+              <span class="sidebar-icon"><i class="fas fa-id-card"></i></span>
+              <span class="sidebar-item-text">Card</span>
+            </li>
+            <li class="sidebar-list-item">
+              <span class="sidebar-icon"><i class="fas fa-images"></i></span>
+              <span class="sidebar-item-text">Image</span>
+            </li>
+            <li class="sidebar-list-item">
+              <span class="sidebar-icon"><i class="fas fa-edit"></i></span>
+              <span class="sidebar-item-text">Input</span>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- badge section -->
+      <div class="example-container">
+        <div class="example-container-wrapper">
+          <h1 class="example-title">Badges</h1>
+          <p class="example-desc">
+            Badges can be used to display numbers, online / offline status.
+            Badges are small circles which showcase a particular value according
+            to requirement, positioned at top-right or bottom-right of the
+            parent element.
+          </p>
+          <hr class="example-hr" />
+          <h2>Example of badge on avatars</h2>
+          <p class="example-desc">
+            Avatar badges can be used to show user status.
+          </p>
+
+          <div class="example-showcase">
+            <div class="badge">
+              <img
+                class="avatar-img"
+                src="/assets/images/sampleAvatar.png"
+                alt="avatar-img"
+              />
+              <div class="online"></div>
+            </div>
+
+            <div class="badge">
+              <img
+                class="avatar-img"
+                src="/assets/images/sampleAvatar.png"
+                alt="avatar-img"
+              />
+              <div class="offline"></div>
+            </div>
+
+            <div class="badge">
+              <img
+                class="avatar-img"
+                src="/assets/images/sampleAvatar.png"
+                alt="avatar-img"
+              />
+              <div class="dnd"></div>
+            </div>
+          </div>
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=auto&width=818&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522%252Fassets%252Fimages%252FsampleAvatar.png%2522%2520alt%253D%2522avatar-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522online%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522%252Fassets%252Fimages%252FsampleAvatar.png%2522%2520alt%253D%2522avatar-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522offline%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Cimg%2520class%253D%2522avatar-img%2522%2520src%253D%2522%252Fassets%252Fimages%252FsampleAvatar.png%2522%2520alt%253D%2522avatar-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522dnd%2522%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 818px;
+                height: 297px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <hr class="example-hr" />
+          <h2>Example of badge on icons</h2>
+          <p class="example-desc">
+            Icons badges can be used to show specific number value.
+          </p>
+
+          <div class="example-showcase">
+            <div class="badge">
+              <i class="fas fa-shopping-cart"></i>
+              <div class="badge-icon-text">4</div>
+            </div>
+
+            <div class="badge">
+              <i class="fas fa-envelope"></i>
+              <div class="badge-icon-text">10</div>
+            </div>
+
+            <div class="badge">
+              <i class="fas fa-bell"></i>
+              <div class="badge-icon-text">9+</div>
+            </div>
+          </div>
+
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=auto&width=818&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-shopping-cart%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-text%2522%253E4%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-text%2522%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522badge%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-bell%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522badge-icon-text%2522%253E10%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 818px;
+                height: 297px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <hr class="example-hr" />
+          <footer>
+            <div class="footer-left">
+              <a href="#">
+                <span class="footer-left-icon"
+                  ><i class="fas fa-chevron-left"></i></span
+                ><span class="footer-text">Alert</span></a
+              >
+            </div>
+            <div class="footer-right">
+              <a href="#">
+                <span class="footer-text">Button</span>
+                <span class="footer-right-icon"
+                  ><i class="fas fa-chevron-right"></i></span
+              ></a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

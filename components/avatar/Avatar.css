@@ -1,0 +1,23 @@
+.avatar {
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.sm {
+  width: 45px;
+  height: 45px;
+}
+
+.md {
+  width: 70px;
+  height: 70px;
+}
+
+.lg {
+  width: 90px;
+  height: 90px;
+}
+
+.square {
+  border-radius: 10px;
+}
