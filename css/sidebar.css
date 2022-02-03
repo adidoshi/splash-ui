@@ -5,10 +5,8 @@
 
 nav {
   flex: 1.5;
-  height: calc(100vh - 50px);
   overflow-y: scroll;
   position: sticky;
-
   margin-top: 1.5rem;
 }
 
@@ -65,4 +63,10 @@ nav {
 .sidebar-item-text:hover {
   color: var(--secondary-color);
   font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: none;
+  }
 }
