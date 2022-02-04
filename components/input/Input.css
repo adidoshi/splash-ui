@@ -1,0 +1,58 @@
+.input-group label {
+  display: block;
+  margin-bottom: 2px;
+}
+
+.input-group {
+  position: relative;
+  color: var(--dark-gray);
+  font-size: 0.8rem;
+  line-height: 20px;
+  margin: 0 20px 10px;
+  width: 80%;
+}
+
+.input-group input {
+  background: #fff;
+  border: 1px solid var(--light-gray);
+  padding: 0.6rem 0.7rem;
+  font-size: 0.8rem;
+  margin: 5px 0;
+  width: 100%;
+  transition: 0.3s all ease;
+  outline: none;
+  border-radius: 2px;
+}
+
+.input-group-icon {
+  position: absolute;
+  right: 15px;
+  top: 37px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.input-group.err input {
+  border: 1px solid var(--error-color);
+}
+
+.error-message {
+  color: var(--error-color);
+}
+
+.input-grp {
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+}
+
+.input-grp-label {
+  margin: 0 6px;
+}
+
+.input-grp-label input {
+  margin-right: 4px;
+}
+
+.input-grp-disabled {
+  cursor: not-allowed;
+}
