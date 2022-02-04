@@ -20,10 +20,6 @@
   background-color: rgb(201, 198, 198);
 }
 
-.sidebar-wrapper {
-  padding: 0 3.5rem;
-}
-
 .sidebar-title-one {
   color: var(--light-gray);
   margin-bottom: 1rem;
