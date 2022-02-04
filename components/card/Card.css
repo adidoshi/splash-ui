@@ -1,0 +1,243 @@
+/* common styles */
+.card {
+  box-shadow: 0 5px 20px -5px rgb(191 192 192);
+  width: 20rem;
+  height: max-content;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.card-primary {
+  margin: 0.6rem 0;
+  padding: 0 1rem;
+}
+
+.card-primary-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+.card-secondary {
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: var(--light-gray);
+}
+
+/* card with text */
+.card-actions-btn-filled {
+  width: 100%;
+  padding: 6px 8px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.card-actions-btn-filled:hover {
+  background-color: var(--secondary-color);
+}
+
+/* card with text overlay */
+.card-img-box {
+  position: relative;
+}
+
+.card-primary-box {
+  position: absolute;
+  top: 6.5rem;
+  margin: 1.2rem 0;
+  padding: 0 1rem;
+}
+
+.card-primary-title-overlay {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: white;
+}
+
+.card-primary-text-overlay {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.card-content {
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: rgb(139, 131, 131);
+}
+
+/* dismiss */
+.card-img-box {
+  position: relative;
+}
+
+.card-dismiss {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.card-img {
+  width: 100%;
+  height: 13.5rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-primary-text {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.card-actions {
+  margin: 0.8rem 0;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.card-actions-btn {
+  width: 40%;
+}
+
+.card-actions-btn button {
+  background: none;
+  border: none;
+  padding: 8px;
+  letter-spacing: 2px;
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.card-actions-btn button:hover {
+  background-color: rgb(228, 214, 214);
+}
+
+.card-actions-icons {
+  width: 60%;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.card-actions-icons button {
+  border: none;
+  background: none;
+  font-size: 1.1rem;
+  color: rgb(129, 122, 122);
+  cursor: pointer;
+  height: 2.2rem;
+  width: 2.2rem;
+}
+
+.card-actions-icons button:hover {
+  background-color: rgb(228, 214, 214);
+  border-radius: 50%;
+}
+
+/* ecom */
+.card-details {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.6rem 1rem;
+  border-bottom: 2px solid #f3f4f6;
+}
+
+.card-img-box {
+  position: relative;
+}
+
+.card-img-offer img {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  width: 50px;
+  height: 50px;
+}
+
+.card-details-price-fix {
+  text-decoration: line-through;
+  color: var(--light-gray);
+}
+
+.card-details-price-offer {
+  color: var(--secondary-color);
+  font-size: 1.4rem;
+  margin-left: 5px;
+}
+
+.card-detals-quantity {
+  display: flex;
+  align-items: center;
+}
+
+.card-detals-quantity-icon {
+  font-size: 1.3rem;
+  margin: 0 6px;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.card-actions-box {
+  width: 40%;
+}
+
+/* shadow */
+.shadow {
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.shadow:hover {
+  box-shadow: 0 10px 11px rgba(33, 33, 33, 0.2);
+}
+
+#lift {
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s;
+}
+#lift:hover {
+  top: -10px;
+}
+
+/* card 6 */
+.card-body {
+  display: flex;
+  align-items: flex-start;
+}
+
+.card-img-hz {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px 0 0 0;
+}
+
+.card-primary-title-hz {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.card-primary-text-hz {
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: rgb(148, 143, 143);
+}
+
+.card-bottom {
+  margin: 1rem 0;
+  padding: 0 1rem;
+  font-size: 0.9rem;
+  color: var(--light-gray);
+}
