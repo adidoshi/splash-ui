@@ -1,6 +1,5 @@
 const togglePassword = document.querySelector("#togglePassword");
 const password = document.querySelector("#password");
-const errMsg = document.querySelector("#errMsg");
 
 togglePassword.addEventListener("click", function () {
   const type =
