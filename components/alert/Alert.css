@@ -1,0 +1,27 @@
+.alert {
+  width: 100%;
+  margin: 0.8rem 0;
+  padding: 0.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 8px;
+  word-spacing: 2px;
+  opacity: 0.9;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.success {
+  background-color: var(--success-color);
+}
+
+.danger {
+  background-color: var(--error-color);
+}
+
+.warning {
+  background-color: var(--warning-color);
+}
