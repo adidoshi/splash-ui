@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card | Splash ui</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/header.css" />
+    <link rel="stylesheet" href="/css/sidebar.css" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <link rel="stylesheet" href="/components/card/Card.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-left">
+          <a href="../../index.html">Splash</a>
+          <span class="small-text">v1.0</span>
+        </div>
+        <ul class="header-right">
+          <li><a href="../../docs.html">Docs</a></li>
+          <li>
+            <a href="https://github.com/adidoshi/splash-ui" target="_blank">
+              <span class="header-icon"
+                ><i class="devicon-github-original colored"></i
+              ></span>
+            </a>
+          </li>
+        </ul>
+      </header>
+
+      <div class="docs-container">
+        <nav class="sidebar">
+          <h4 class="sidebar-title-one">Getting started</h4>
+          <ul class="sidebar-list">
+            <a href="../../docs.html"
+              ><li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-download"></i
+                ></span>
+                <span class="sidebar-item-text">Installation </span>
+              </li></a
+            >
+          </ul>
+          <h4 class="sidebar-title-two">Components</h4>
+          <ul class="sidebar-list">
+            <a href="../avatar/Avatar.html"
+              ><li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-user-circle"></i
+                ></span>
+                <span class="sidebar-item-text">Avatar </span>
+              </li></a
+            >
+            <a href="../alert/Alert.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon">
+                  <i class="fas fa-exclamation-circle"></i
+                ></span>
+                <span class="sidebar-item-text">Alert </span>
+              </li>
+            </a>
+            <a href="../badge/Badge.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-bookmark"></i
+                ></span>
+                <span class="sidebar-item-text">Badge</span>
+              </li>
+            </a>
+            <a href="../button/Button.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"><i class="fas fa-copy"></i></span>
+                <span class="sidebar-item-text">Button</span>
+              </li>
+            </a>
+            <a href="../card/Card.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"><i class="fas fa-id-card"></i></span>
+                <span class="sidebar-item-text">Card</span>
+              </li>
+            </a>
+            <a href="../image/Image.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"><i class="fas fa-images"></i></span>
+                <span class="sidebar-item-text">Image</span>
+              </li>
+            </a>
+            <a href="../input/Input.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"><i class="fas fa-edit"></i></span>
+                <span class="sidebar-item-text">Input</span>
+              </li>
+            </a>
+          </ul>
+        </nav>
+
+        <!-- card section -->
+        <div class="example-container">
+          <h1 class="example-title">Cards</h1>
+          <p class="example-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut iure
+            debitis sint vitae voluptatem placeat, cupiditate sequi minus
+            laudantium quo.
+          </p>
+
+          <!-- text only card -->
+          <hr class="example-hr" />
+          <h2>Text only card</h2>
+          <p class="example-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo
+            voluptas assumenda? Inventore, reprehenderit exercitationem?
+          </p>
+
+          <div class="example-showcase">
+            <div class="card">
+              <div class="card-primary">
+                <h1 class="card-primary-title">Card title</h1>
+              </div>
+              <div class="card-secondary">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Architecto voluptas fugiat omnis eligendi totam facilis cum?
+                </p>
+              </div>
+              <div class="card-actions">
+                <button class="card-actions-btn-filled">Button</button>
+              </div>
+            </div>
+          </div>
+
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-primary-title%2522%253ECard%2520title%253C%252Fh1%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%253C%252Fp%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-actions-btn-filled%2522%253EButton%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 160px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <!-- text overlay -->
+          <hr class="example-hr" />
+          <h2>Card with text overlay</h2>
+          <p class="example-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo
+            voluptas assumenda? Inventore, reprehenderit exercitationem?
+          </p>
+
+          <div class="example-showcase">
+            <div class="card">
+              <div class="card-img-box">
+                <img
+                  src="../../assets/images/cardImg.jpg"
+                  alt="card image"
+                  class="card-img"
+                />
+
+                <div class="card-primary-box">
+                  <h1 class="card-primary-title-overlay">Card title</h1>
+                  <h3 class="card-primary-text-overlay">by Lorem, ipsum.</h3>
+                </div>
+              </div>
+              <div class="card-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta.
+              </div>
+              <div class="card-actions">
+                <div class="card-actions-btn">
+                  <button>READ</button>
+                </div>
+                <div class="card-actions-icons">
+                  <button><i class="far fa-heart"></i></button>
+                  <button><i class="fas fa-share-alt"></i></button>
+                  <button><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252FcardImg.jpg%2522%2520alt%253D%2522card%2520image%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-primary-title-overlay%2522%253ECard%2520title%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-primary-text-overlay%2522%253Eby%2520Lorem%252C%2520ipsum.%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Soluta.%250A%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 160px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <!-- Dismiss card -->
+          <hr class="example-hr" />
+          <h2>Card with dismiss</h2>
+          <p class="example-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo
+            voluptas assumenda? Inventore, reprehenderit exercitationem?
+          </p>
+
+          <div class="example-showcase">
+            <div class="card">
+              <div class="card-img-box">
+                <img
+                  src="../../assets/images/cardImg.jpg"
+                  alt="card image"
+                  class="card-img"
+                />
+                <span class="card-dismiss"><i class="fas fa-times"></i></span>
+              </div>
+              <div class="card-primary">
+                <h1 class="card-primary-title">Card title</h1>
+                <h3 class="card-primary-text">by Lorem, ipsum.</h3>
+              </div>
+              <div class="card-secondary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam.
+              </div>
+              <div class="card-actions">
+                <div class="card-actions-btn">
+                  <button>READ</button>
+                </div>
+                <div class="card-actions-icons">
+                  <button><i class="fas fa-bookmark"></i></button>
+                  <button><i class="far fa-heart"></i></button>
+                  <button><i class="fas fa-share-alt"></i></button>
+                  <button><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252FcardImg.jpg%2522%2520alt%253D%2522card%2520image%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-dismiss%2522%253E%253Ci%2520class%253D%2522fas%2520fa-times%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-primary-title%2522%253ECard%2520title%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-primary-text%2522%253Eby%2520Lorem%252C%2520ipsum.%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Numquam.%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 160px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <!-- Ecommerce card -->
+          <hr class="example-hr" />
+          <h2>Ecommerce card</h2>
+          <p class="example-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo
+            voluptas assumenda? Inventore, reprehenderit exercitationem?
+          </p>
+
+          <div class="example-showcase">
+            <div class="card">
+              <div class="card-img-box">
+                <img
+                  src="../../assets/images/product1.jpg"
+                  alt="card image"
+                  class="card-img"
+                />
+                <span class="card-img-offer">
+                  <img src="../../assets/svg/offer.svg" alt=""
+                /></span>
+              </div>
+              <div class="card-primary">
+                <h1 class="card-primary-title">Card title</h1>
+                <h3 class="card-primary-text">Category</h3>
+              </div>
+              <div class="card-details">
+                <div class="card-details-price">
+                  ₹ <span class="card-details-price-fix">7500 </span>
+                  <span class="card-details-price-offer">5250 /-</span>
+                </div>
+                <div class="card-detals-quantity">
+                  <span class="card-detals-quantity-icon"
+                    ><i class="fas fa-plus-circle"></i
+                  ></span>
+                  3
+                  <span class="card-detals-quantity-icon"
+                    ><i class="fas fa-minus-circle"></i
+                  ></span>
+                </div>
+              </div>
+              <div class="card-actions">
+                <div class="card-actions-box">
+                  <button class="card-actions-btn-filled">Buy</button>
+                </div>
+                <div class="card-actions-icons">
+                  <button><i class="far fa-heart"></i></button>
+                  <button><i class="fas fa-share-alt"></i></button>
+                  <button><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252Fproduct1.jpg%2522%2520alt%253D%2522card%2520image%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-img-offer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fsvg%252Foffer.svg%2522%2520alt%253D%2522%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-primary-title%2522%253ECard%2520title%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-primary-text%2522%253ECategory%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-details-price%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%25E2%2582%25B9%2520%253Cspan%2520class%253D%2522card-details-price-fix%2522%253E7500%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-details-price-offer%2522%253E5250%2520%252F-%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-detals-quantity%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-detals-quantity-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-plus-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%25203%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-detals-quantity-icon%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-minus-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-box%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-actions-btn-filled%2522%253EBuy%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 160px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <hr class="example-hr" />
+          <h2>Card with shadow</h2>
+          <p class="example-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo
+            voluptas assumenda? Inventore, reprehenderit exercitationem?
+          </p>
+
+          <div class="example-showcase">
+            <div class="card shadow" id="lift">
+              <img
+                src="../../assets/images/cardImg.jpg"
+                alt="card image"
+                class="card-img"
+              />
+
+              <div class="card-primary">
+                <h1 class="card-primary-title">Card title</h1>
+                <h3 class="card-primary-text">by Lorem, ipsum.</h3>
+              </div>
+              <div class="card-secondary">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Numquam.
+              </div>
+              <div class="card-actions">
+                <div class="card-actions-btn">
+                  <button>READ</button>
+                </div>
+                <div class="card-actions-icons">
+                  <button><i class="fas fa-bookmark"></i></button>
+                  <button><i class="far fa-heart"></i></button>
+                  <button><i class="fas fa-share-alt"></i></button>
+                  <button><i class="fas fa-ellipsis-v"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2520shadow%2522%2520id%253D%2522lift%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimgcsrc%253D%2522..%252F..%252Fassets%252Fimages%252FcardImg.jpg%2522calt%253D%2522card%2520image%2522%2520class%253D%2522card-img%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-primary-title%2522%253ECard%2520title%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-primary-text%2522%253Eby%2520Lorem%252C%2520ipsum.%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Numquam.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253EREAD%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-actions-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-bookmark%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522far%2520fa-heart%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-share-alt%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%253E%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2522%253E%253C%252Fi%253E%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 160px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <hr class="example-hr" />
+          <h2>Horizontal card</h2>
+          <p class="example-desc">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo illo
+            voluptas assumenda? Inventore, reprehenderit exercitationem?
+          </p>
+
+          <div class="example-showcase">
+            <div class="card">
+              <div class="card-body">
+                <img
+                  src="../../assets/images/cardImg.jpg"
+                  alt="card image"
+                  class="card-img-hz"
+                />
+
+                <div class="card-primary">
+                  <h1 class="card-primary-title-hz">Card title</h1>
+                  <h3 class="card-primary-text-hz">Lorem, ipsum.</h3>
+                </div>
+              </div>
+              <div class="card-bottom">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+                architecto.
+              </div>
+            </div>
+          </div>
+
+          <code>
+            <iframe
+              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522..%252F..%252Fassets%252Fimages%252FcardImg.jpg%2522%2520alt%253D%2522card%2520image%2522%2520class%253D%2522card-img-hz%2522%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%2520class%253D%2522card-primary-title-hz%2522%253ECard%2520title%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-primary-text-hz%2522%253ELorem%252C%2520ipsum.%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Ipsa%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520architecto.%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+              style="
+                width: 100%;
+                height: 160px;
+                border: 0;
+                transform: scale(1);
+                overflow: hidden;
+              "
+              sandbox="allow-scripts allow-same-origin"
+            >
+            </iframe>
+          </code>
+
+          <hr class="example-hr" />
+          <footer>
+            <div class="footer-left">
+              <a href="../button/Button.html">
+                <span class="footer-left-icon"
+                  ><i class="fas fa-chevron-left"></i></span
+                ><span class="footer-text">Button</span></a
+              >
+            </div>
+            <div class="footer-right">
+              <a href="../image/Image.html">
+                <span class="footer-text">Image</span>
+                <span class="footer-right-icon"
+                  ><i class="fas fa-chevron-right"></i></span
+              ></a>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
