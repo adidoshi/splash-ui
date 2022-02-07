@@ -1,0 +1,61 @@
+.list {
+  margin: 0 1.5rem;
+}
+
+.stack-list {
+  margin: 6px auto;
+  padding: 5px;
+  background-color: beige;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+}
+
+.stack-left {
+  display: flex;
+  justify-content: center;
+  width: 4rem;
+}
+
+.stack-img {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.stack-right {
+  margin-left: 5px;
+}
+
+.stack-subject {
+  font-size: 0.8rem;
+}
+
+.stacked-list {
+  list-style: none;
+  width: 260px;
+  background-color: var(--dark-gray);
+}
+
+.stacked-divider {
+  margin: 1px 0;
+}
+
+.stacked-list-item {
+  background-color: var(--dark-gray);
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.stacked-list-item:hover {
+  background-color: var(--light-gray);
+}
+
+.stacked-list-text {
+  margin-left: 10px;
+}
+
+.stacked-list-icon {
+  margin-left: 5px;
+}
