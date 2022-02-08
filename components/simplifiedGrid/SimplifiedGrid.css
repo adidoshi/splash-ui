@@ -1,0 +1,49 @@
+@import url("/components/image/Image.css");
+@import url("/components/card/Card.css");
+
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.grid-item {
+  box-shadow: 0 5px 20px -5px rgb(191 192 192);
+  border-radius: 8px;
+}
+
+.grid-item-title {
+  padding: 5px;
+  color: var(--dark-gray);
+}
+
+.grid-item img {
+  border-radius: 8px 8px 0 0;
+}
+
+.grid-item-subtitle {
+  padding: 5px;
+  color: var(--light-gray);
+}
+
+.grid-item .grid-item-price {
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.32rem;
+}
+
+.grid-item .grid-body {
+  color: var(--light-gray);
+  font-size: 0.8rem;
+  padding: 5px;
+}
+
+.grid-item .grid-footer {
+  padding: 5px;
+}
