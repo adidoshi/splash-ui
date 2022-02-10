@@ -99,7 +99,7 @@ hr {
 
 .example-showcase {
   width: 100%;
-  min-height: 8rem;
+  height: max-content;
   background-color: #fafaf9;
   display: flex;
   flex-wrap: wrap;
@@ -115,7 +115,7 @@ hr {
 
 .utilities-box {
   width: 100%;
-  min-height: 5rem;
+  height: max-content;
   background-color: #fafaf9;
   margin: 1.2rem 0;
   padding: 1.2rem;
