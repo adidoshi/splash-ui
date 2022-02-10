@@ -42,6 +42,10 @@
   margin-bottom: 20px;
 }
 
+.sidebar .active {
+  color: var(--primary-color);
+}
+
 .sidebar-icon {
   margin-left: 13px;
   font-size: 1.3rem;
@@ -60,7 +64,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-  nav {
+  .sidebar {
     display: none;
   }
 }

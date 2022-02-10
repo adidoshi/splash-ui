@@ -122,7 +122,7 @@ hr {
 }
 
 /* footer style */
-footer {
+.footer {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1.5rem;
@@ -147,12 +147,22 @@ footer {
     width: 100%;
   }
 
+  .content-wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+
   .example-container {
     margin: auto;
     width: 90%;
   }
 
-  code {
+  .main-left {
+    text-align: center;
+    width: 100%;
+  }
+
+  .main-right {
     display: none;
   }
 }

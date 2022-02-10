@@ -14,6 +14,7 @@
   --success-color: #15803d;
   --warning-color: #facc15;
   --error-color: #dc2626;
+  --card-box-shadow: 0 5px 20px -5px rgb(191 192 192);
 }
 
 * {
