@@ -23,7 +23,7 @@
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="header">
         <div class="header-left">
           <a href="../../index.html">Splash</a>
           <span class="small-text">v1.0</span>
@@ -103,6 +103,56 @@
                 <span class="sidebar-item-text">Input</span>
               </li>
             </a>
+            <a href="../textUtilities/TextUtilities.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"><i class="fas fa-heading"></i></span>
+                <span class="sidebar-item-text">Text Utilities</span>
+              </li>
+            </a>
+            <a href="../lists/Lists.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"><i class="fas fa-list-ul"></i></span>
+                <span class="sidebar-item-text">Lists</span>
+              </li>
+            </a>
+            <a href="../modal/Modal.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="far fa-credit-card"></i
+                ></span>
+                <span class="sidebar-item-text">Modal</span>
+              </li>
+            </a>
+            <a href="../navigation/Navigation.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-directions"></i
+                ></span>
+                <span class="sidebar-item-text">Navigation</span>
+              </li>
+            </a>
+            <a href="../rating/Rating.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"><i class="fas fa-star"></i></span>
+                <span class="sidebar-item-text">Rating</span>
+              </li>
+            </a>
+            <a href="../snackbar/Snackbar.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="fas fa-bread-slice"></i
+                ></span>
+                <span class="sidebar-item-text">Snackbar / Toast</span>
+              </li>
+            </a>
+            <a href="../simplifiedGrid/SimplifiedGrid.html">
+              <li class="sidebar-list-item">
+                <span class="sidebar-icon"
+                  ><i class="far fa-credit-card"></i
+                ></span>
+                <span class="sidebar-item-text">Simplified Grid</span>
+              </li>
+            </a>
           </ul>
         </nav>
 
@@ -110,15 +160,14 @@
         <div class="example-container">
           <h1 class="example-title">Button</h1>
           <p class="example-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-            voluptate iusto at esse voluptatibus itaque molestias veritatis
-            deserunt, blanditiis eaque.
+            Splash includes several predefined button styles, each serving its
+            own semantic purpose, you can use then according to need.
           </p>
           <hr class="example-hr" />
           <h2>Example of buttons</h2>
           <p class="example-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime
-            sed alias distinctio ducimus quis.
+            Variants for buttons, include 'primary', 'secondary', 'outline',
+            'text'. 'btn' class is initial followed by the variants classes.
           </p>
 
           <div class="example-showcase">
@@ -130,25 +179,15 @@
           </div>
           <code>
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2522%253EDefault%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-primary%2522%253EPrimary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-secondary%2522%253ESecondary%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-outline%2522%253EOutline%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-float%2522%253E%253Cspan%253EText%2520%253C%252Fspan%253E%253C%252Fbutton%253E"
-              style="
-                width: 100%;
-                height: 150px;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
+              src="https://www.thiscodeworks.com/embed/6204cb11c6efb50015062e2d"
+              style="width: 100%; height: auto"
+              frameborder="0"
+            ></iframe>
           </code>
 
           <hr class="example-hr" />
           <h2>Example of icon buttons</h2>
-          <p class="example-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime
-            sed alias distinctio ducimus quis.
-          </p>
+          <p class="example-desc">Square icon button and circle icon button.</p>
 
           <div class="example-showcase">
             <button class="btn btn-icon">
@@ -161,24 +200,16 @@
 
           <code>
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cbutton%2520class%253D%2522btn%2520btn-icon%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-paper-plane%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E%250A%253Cbutton%2520class%253D%2522btn%2520btn-icon-rounded%2522%253E%250A%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-comment%2522%253E%253C%252Fi%253E%250A%253C%252Fbutton%253E"
-              style="
-                width: 100%;
-                height: 169px;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
+              src="https://www.thiscodeworks.com/embed/6204cb4bc6efb50015062e30"
+              style="width: 100%; height: auto"
+              frameborder="0"
+            ></iframe>
           </code>
 
           <hr class="example-hr" />
           <h2>Link Button</h2>
           <p class="example-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo maxime
-            sed alias distinctio ducimus quis.
+            You can include link in the anchor tag, can use as a button.
           </p>
 
           <div class="example-showcase">
@@ -186,30 +217,23 @@
           </div>
           <code>
             <iframe
-              src="https://carbon.now.sh/embed?bg=rgba%2843%2C43%2C43%2C1%29&t=seti&wt=none&l=htmlmixed&width=800&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520class%253D%2522btn%2520btn-link%2522%253E%253Ca%2520href%253D%2522link%2522%253ELink%253C%252Fa%253E%253C%252Fbutton%253E"
-              style="
-                width: 100%;
-                height: 76px;
-                border: 0;
-                transform: scale(1);
-                overflow: hidden;
-              "
-              sandbox="allow-scripts allow-same-origin"
-            >
-            </iframe>
+              src="https://www.thiscodeworks.com/embed/6204cb74c6efb50015062e31"
+              style="width: 100%; height: auto"
+              frameborder="0"
+            ></iframe>
           </code>
           <hr class="example-hr" />
-          <footer>
+          <footer class="footer">
             <div class="footer-left">
-              <a href="#">
+              <a href="../badge/Badge.html">
                 <span class="footer-left-icon"
                   ><i class="fas fa-chevron-left"></i></span
-                ><span class="footer-text">Alert</span></a
+                ><span class="footer-text">Badge</span></a
               >
             </div>
             <div class="footer-right">
-              <a href="#">
-                <span class="footer-text">Button</span>
+              <a href="../card/Card.html">
+                <span class="footer-text">Card</span>
                 <span class="footer-right-icon"
                   ><i class="fas fa-chevron-right"></i></span
               ></a>
