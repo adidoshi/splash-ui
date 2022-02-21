@@ -1,0 +1,11 @@
+.range-output {
+  color: var(--dark-gray);
+  font-size: 0.8rem;
+}
+
+.range-inp {
+  appearance: none;
+  background-color: var(--light-gray);
+  border-radius: 0.8rem;
+  height: 7px;
+}

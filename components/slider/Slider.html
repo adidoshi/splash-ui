@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Avatar | Splash ui</title>
+    <title>Slider | Splash ui</title>
     <link
       rel="shortcut icon"
       href="/assets/images/favicon.png"
@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="/css/header.css" />
     <link rel="stylesheet" href="/css/sidebar.css" />
     <link rel="stylesheet" href="/css/main.css" />
-    <link rel="stylesheet" href="/components/avatar/Avatar.css" />
+    <link rel="stylesheet" href="/components/slider/Slider.css" />
   </head>
   <body>
     <div class="container">
@@ -49,7 +49,7 @@
         <nav class="sidebar">
           <h4 class="sidebar-title-one">Getting started</h4>
           <ul class="sidebar-list">
-            <a href="/docs.html"
+            <a href="../../docs.html"
               ><li class="sidebar-list-item">
                 <span class="sidebar-icon"
                   ><i class="fas fa-download"></i
@@ -169,95 +169,61 @@
           </ul>
         </nav>
 
-        <!-- avatar section -->
+        <!-- slider section -->
         <div class="example-container">
-          <h1 class="example-title">Avatar</h1>
+          <h1 class="example-title">Slider</h1>
           <p class="example-desc">
-            Avatars are basically user profile pictures, which are in circular
-            shapes. Avatars can be used in your projects when you want some
-            specific actions to be performed by the user.
+            Define a range control (like a slider control):
           </p>
           <hr class="example-hr" />
-          <h2>Example of rounded avatar</h2>
+          <h2>Range Slider</h2>
           <p class="example-desc">
-            Profile avatars can be created using 'avatar' class and according to
-            preferred size.
+            Range slider used to display price range for e-commerce or in your
+            projects according to usage
           </p>
 
           <div class="example-showcase">
-            <img
-              class="avatar sm"
-              src="https://cdn-icons-png.flaticon.com/512/147/147144.png"
-              alt="avatar-img"
-            />
-
-            <img
-              class="avatar md"
-              src="/assets/images/sampleAvatar.png"
-              alt="avatar-img"
-            />
-
-            <img
-              class="avatar lg"
-              src="/assets/images/sampleAvatar.png"
-              alt="avatar-img"
-            />
+            <div class="slider">
+              <label for="range" class="range-label">
+                <input
+                  type="range"
+                  name="slider"
+                  id="range"
+                  min="100"
+                  max="1000"
+                  step="100"
+                  value="500"
+                  oninput="display.value = range.value"
+                  class="range-inp"
+                />
+                <p class="range-output">
+                  Range: 100 to <output id="display"></output>
+                </p>
+              </label>
+            </div>
           </div>
+
           <code>
             <iframe
-              src="https://www.thiscodeworks.com/embed/6204c864c6efb50015062e28"
+              src="https://www.thiscodeworks.com/embed/62132d3b11c4db00151a7e03"
               style="width: 100%; height: auto"
               frameborder="0"
             ></iframe>
           </code>
 
-          <hr class="example-hr" />
-          <h2>Example of square avatar</h2>
-          <p class="example-desc">
-            Adding an extra class of 'square' would change the avatar to square
-            shape.
-          </p>
-
-          <div class="example-showcase">
-            <img
-              class="avatar square sm"
-              src="/assets/images/squareAvatar.jpg"
-              alt="avatar-img"
-            />
-
-            <img
-              class="avatar square md"
-              src="/assets/images/squareAvatar.jpg"
-              alt="avatar-img"
-            />
-
-            <img
-              class="avatar square lg"
-              src="/assets/images/squareAvatar.jpg"
-              alt="avatar-img"
-            />
-          </div>
-
-          <code>
-            <iframe
-              src="https://www.thiscodeworks.com/embed/6204c8b6c6efb50015062e29"
-              style="width: 100%; height: auto"
-              frameborder="0"
-            ></iframe>
-          </code>
           <hr class="example-hr" />
           <footer class="footer">
             <div class="footer-left">
-              <a href="../../docs.html">
+              <a href="../../components/navigation/Navigation.html">
                 <span class="footer-left-icon"
                   ><i class="fas fa-chevron-left"></i></span
-                ><span class="footer-text">Installation</span></a
+                ><span class="footer-text">Navigation</span></a
               >
             </div>
             <div class="footer-right">
-              <a href="../alert/Alert.html">
-                <span class="footer-text">Alert</span>
-                <span class="footer-icon"
+              <a href="../../components/snackbar/Snackbar.html">
+                <span class="footer-text">Snackbar</span>
+                <span class="footer-right-icon"
                   ><i class="fas fa-chevron-right"></i></span
               ></a>
             </div>
